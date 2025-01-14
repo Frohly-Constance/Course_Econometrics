@@ -1,6 +1,6 @@
-# ScPoEconometrics Slide Host
+# Econometrics Repository
 
-* Here you can look at the slide for the [Econometrics](https://github.com/Frohly-Constance/Course_Econometrics) course 2025 version by Constance Frohly (forked from the ScPoEconometrics course by Florian Oswald).
+* Here you can look at the slide for the 2025 [Econometrics](https://github.com/Frohly-Constance/Course_Econometrics) course by Constance Frohly (forked from the ScPoEconometrics course by Florian Oswald).
 * This repo is frequently updated, so check back often.
 
 
