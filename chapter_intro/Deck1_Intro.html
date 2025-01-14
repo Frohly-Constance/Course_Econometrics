@@ -652,28 +652,30 @@ ncol(murders) # number of columns
 * To extract one column **as a vector** we can use the `$` operator (as in `murders$state`), or the square bracket operator `[which_index]` where each element of a matrix is defined by matrix[row, col].
 
 __
-    
+
+
+
 ```r
 first5 &lt;- murders[1:5, ]  # take first 5 states only
 first5$state  # extract with $ operator
 ```
-    
+
 ```
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
 ```
-    
+
 ```r
 first5[ ,"state"]  # extract with column name
 ```
-    
+
 ```
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
 ```
-    
+
 ```r
 first5[ ,1] # get first column
 ```
-    
+
 ```
 ## [1] "Alabama"    "Alaska"     "Arizona"    "Arkansas"   "California"
 ```
