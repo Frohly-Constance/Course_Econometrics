@@ -20,9 +20,9 @@
 | Lecture 11: Regression Discontinuity | [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter-RDD/RDD.html) | [PDF](https://rawcdn.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter-RDD/RDD.pdf)  | [HTML]() |
 | Lecture 12: Recap (*coming soon!*) | [HTML]() | [PDF]()  | [HTML]()|
 
-The suggested reading list can be found [here](https://github.com/ScPoEcon/ScPoEconometrics-Slides/blob/master/syllabus.md).
+The suggested reading list can be found [here](https://github.com/Frohly-Constance/Course_Econometrics/blob/master/syllabus.md).
 
-## Additional Lectures by Florian Oswald, Gustave Kennedi and Pierre Villedieu:
+## Additional Lectures by Florian Oswald, Gustave Kennedi and Pierre Villedieu
 
 Bootstrapping: More details about bootstrapping. [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_bootstrap/boostrap.html)
 
