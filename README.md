@@ -18,7 +18,6 @@
 | Lecture 9: Confidence Intervals and Hypothesis Testing | [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_ci_hyptest/chapter_ci_hyptest.html) | [PDF](https://rawcdn.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_ci_hyptest/chapter_ci_hyptest.pdf) | [HTML]()  |
 | Lecture 10: Regression Inference | [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_reginference/reg_inference.html) | [PDF](https://rawcdn.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_reginference/reg_inference.pdf) | [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_reginference/tasks/reginference_tasks.html) |
 | Lecture 11: Regression Discontinuity | [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter-RDD/RDD.html) | [PDF](https://rawcdn.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter-RDD/RDD.pdf)  | [HTML]() |
-| Lecture 12: Recap (*coming soon!*) | [HTML]() | [PDF]()  | [HTML]()|
 
 The suggested reading list can be found [here](https://github.com/Frohly-Constance/Course_Econometrics/blob/master/syllabus.md).
 
