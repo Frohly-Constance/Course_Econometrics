@@ -3,7 +3,7 @@
   <head>
     <title>ScPoEconometrics</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Mylène Feuillade, Gustave Kenedi, Florian Oswald and Junnan He" />
+    <meta name="author" content="Constance Frohly" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/countdown/countdown.css" rel="stylesheet" />
@@ -23,10 +23,10 @@ class: center, middle, inverse, title-slide
 ## Tidying, Visualising and Summarising Data
 ]
 .author[
-### Mylène Feuillade, Gustave Kenedi, Florian Oswald and Junnan He
+### Constance Frohly
 ]
 .date[
-### SciencesPo Paris </br> 2022-08-28
+### SciencesPo Paris </br> 2025-02-07
 ]
 
 ---
@@ -843,62 +843,6 @@ polls_us_election_2016 %&gt;%
 ```
 ]
 
----
-
-.right-wide[
-*Example:* What is the average vote share for Clinton by poll grade?
-]
-
-.right-wide[
-
-```r
-polls_us_election_2016 %&gt;%
-  group_by(grade) %&gt;%
-* class()
-```
-
-
-```
-## [1] "grouped_df" "tbl_df"     "tbl"        "data.frame"
-```
-]
-
----
-
-.right-wide[
-*Example:* What is the average vote share for Clinton by poll grade?
-]
-
-.right-wide[
-
-```r
-polls_us_election_2016 %&gt;%
-* group_by(grade)
-```
-
-
-```
-## # A tibble: 4,208 × 15
-## # Groups:   grade [11]
-##    state     startdate  enddate    polls…¹ grade sampl…² popul…³ rawpo…⁴ rawpo…⁵
-##    &lt;fct&gt;     &lt;date&gt;     &lt;date&gt;     &lt;fct&gt;   &lt;fct&gt;   &lt;int&gt; &lt;chr&gt;     &lt;dbl&gt;   &lt;dbl&gt;
-##  1 U.S.      2016-11-03 2016-11-06 ABC Ne… A+       2220 lv         47      43  
-##  2 U.S.      2016-11-01 2016-11-07 Google… B       26574 lv         38.0    35.7
-##  3 U.S.      2016-11-02 2016-11-06 Ipsos   A-       2195 lv         42      39  
-##  4 U.S.      2016-11-04 2016-11-07 YouGov  B        3677 lv         45      41  
-##  5 U.S.      2016-11-03 2016-11-06 Gravis… B-      16639 rv         47      43  
-##  6 U.S.      2016-11-03 2016-11-06 Fox Ne… A        1295 lv         48      44  
-##  7 U.S.      2016-11-02 2016-11-06 CBS Ne… A-       1426 lv         45      41  
-##  8 U.S.      2016-11-03 2016-11-05 NBC Ne… A-       1282 lv         44      40  
-##  9 New Mexi… 2016-11-06 2016-11-06 Zia Po… &lt;NA&gt;     8439 lv         46      44  
-## 10 U.S.      2016-11-04 2016-11-07 IBD/TI… A-       1107 lv         41.2    42.7
-## # … with 4,198 more rows, 6 more variables: rawpoll_johnson &lt;dbl&gt;,
-## #   rawpoll_mcmullin &lt;dbl&gt;, adjpoll_clinton &lt;dbl&gt;, adjpoll_trump &lt;dbl&gt;,
-## #   adjpoll_johnson &lt;dbl&gt;, adjpoll_mcmullin &lt;dbl&gt;, and abbreviated variable
-## #   names ¹​pollster, ²​samplesize, ³​population, ⁴​rawpoll_clinton, ⁵​rawpoll_trump
-## # ℹ Use `print(n = ...)` to see more rows, and `colnames()` to see all variable names
-```
-]
 
 ---
 
@@ -2240,13 +2184,10 @@ background-position: 9% 19%
 
 
 
-
 |                                                                                                            |                                   |
 | :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
-| &lt;a href="https://github.com/ScPoEcon/ScPoEconometrics-Slides"&gt;.ScPored[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | Slides |
-| &lt;a href="https://scpoecon.github.io/ScPoEconometrics"&gt;.ScPored[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | Book |
-| &lt;a href="http://twitter.com/ScPoEcon"&gt;.ScPored[&lt;i class="fa fa-twitter fa-fw"&gt;&lt;/i&gt;]                          | @ScPoEcon                         |
-| &lt;a href="http://github.com/ScPoEcon"&gt;.ScPored[&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;]                          | @ScPoEcon                       |
+| &lt;a href="https://github.com/Frohly-Constance/Course_Econometrics"&gt;.ScPored[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | Slides |
+| &lt;a href="https://github.com/Frohly-Constance/blob/master/syllabus.md"&gt;.ScPored[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | Reading list |
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
