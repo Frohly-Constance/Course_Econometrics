@@ -22,7 +22,7 @@
 
 The suggested reading list can be found [here](https://github.com/ScPoEcon/ScPoEconometrics-Slides/blob/master/syllabus.md).
 
-## Additional Lectures
+## Additional Lectures by Florian Oswald, Gustave Kennedi and Pierre Villedieu:
 
 Bootstrapping: More details about bootstrapping. [HTML](https://raw.githack.com/ScPoEcon/ScPoEconometrics-Slides/master/chapter_bootstrap/boostrap.html)
 
