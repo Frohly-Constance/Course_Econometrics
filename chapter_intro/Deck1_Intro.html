@@ -649,7 +649,11 @@ ncol(murders) # number of columns
 
 # Accessing `data.frame` Columns
     
-* To extract one column **as a vector** we can use the `$` operator (as in `murders$state`), or the square bracket operator `[which_index]` with name or position index:
+* To extract one column **as a vector** we can use the `$` operator (as in `murders$state`), or the square bracket operator `[which_index]`
+.footnote[
+[1]: As a general mathematical convention, the element of a matrix is defined as `matrix[row, column]'.
+]
+ with name or position index:
     
     ```r
     first5 &lt;- murders[1:5, ]  # take first 5 states only
